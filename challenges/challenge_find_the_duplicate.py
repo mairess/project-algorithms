@@ -1,4 +1,7 @@
-def find_duplicate(nums: list[int]):
+from typing import Literal
+
+
+def find_duplicate(nums: list[int]) -> int | Literal[False]:
 
     nums.sort()
 

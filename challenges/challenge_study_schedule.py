@@ -1,4 +1,6 @@
-def study_schedule(permanence_period: list[tuple[int, int]], target_time: int):
+def study_schedule(
+    permanence_period: list[tuple[int, int]], target_time: int
+) -> int | None:
     if not permanence_period or target_time is None:
         return None
 

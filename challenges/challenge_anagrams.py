@@ -1,11 +1,14 @@
-def quick_sort(string, start, end):
+from typing import Tuple
+
+
+def quick_sort(string: list[str], start: int, end: int) -> None:
     if start < end:
         p = partition(string, start, end)
         quick_sort(string, start, p - 1)
         quick_sort(string, p + 1, end)
 
 
-def partition(entry, start, end):
+def partition(entry: list[str], start: int, end: int):
     pivot = entry[end]
     delimiter = start - 1
 
@@ -19,7 +22,7 @@ def partition(entry, start, end):
     return delimiter + 1
 
 
-def is_anagram(first_string, second_string):
+def is_anagram(first_string: str, second_string: str) -> Tuple[str, str, bool]:
     if not first_string and not second_string:
         return ("", "", False)
 
