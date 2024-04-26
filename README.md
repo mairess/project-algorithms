@@ -1,10 +1,11 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# <p align="center">Projeto Algoritmos</p>
+
+## Contexto
+
+Nesse projeto resolvi problemas e otimizei algoritmos desenvolvendo minha capacidade de implementar soluções que levam em consideração a complexidade assintótica do código.
+
+## Competências desenvolvidas
+
+- Capacidade de interpretação de problemas;.
+- Capacidade de interpretação de um código legado.
+- Resolver problemas/Otimizar algoritmos sob pressão.
